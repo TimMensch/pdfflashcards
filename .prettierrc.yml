@@ -1,0 +1,13 @@
+trailingComma: es5
+tabWidth: 4
+semi: true
+endOfLine: lf
+
+overrides:
+  - files:
+      - "*.yml"
+      - "*.yaml"
+    options:
+      singleQuote: false
+      tabWidth: 2
+      useTabs: false
